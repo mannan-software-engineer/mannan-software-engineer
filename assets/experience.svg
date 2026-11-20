@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" role="img" aria-label="Career: Senior Backend Developer at Crypthon Technologies (2025–present), Associate Python Developer at Revocode (2024–2025), Python Automation Engineer at BlitzCoFluence (2023–2024), BS Computer Science">
+  <style>
+    .mono { font-family: 'JetBrains Mono','Fira Code',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+    .sans { font-family: Inter,'Segoe UI',Helvetica,Arial,sans-serif; }
+    .row { opacity: 0; animation: in .45s ease-out forwards; }
+    .r1 { animation-delay: .15s; } .r2 { animation-delay: .45s; } .r3 { animation-delay: .75s; } .r4 { animation-delay: 1.05s; }
+    @keyframes in { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: translateX(0); } }
+    .head { animation: ping 2s ease-out infinite; transform-origin: 98px 118px; }
+    @keyframes ping { 0% { opacity: .7; transform: scale(1); } 100% { opacity: 0; transform: scale(2.4); } }
+  </style>
+
+  <rect width="1000" height="400" rx="16" fill="#070a12"/>
+  <rect x="20" y="16" width="960" height="368" rx="12" fill="#0b1120" stroke="#1a2336"/>
+  <path d="M20 28a12 12 0 0 1 12-12h936a12 12 0 0 1 12 12v22H20z" fill="#0f1729"/>
+  <line x1="20" y1="50" x2="980" y2="50" stroke="#1a2336"/>
+  <circle cx="42" cy="33" r="5" fill="#ff5f57"/><circle cx="60" cy="33" r="5" fill="#febc2e"/><circle cx="78" cy="33" r="5" fill="#28c840"/>
+  <text x="500" y="38" text-anchor="middle" class="mono" font-size="12" fill="#7d8aa3">career — git log --graph --oneline</text>
+
+  <text x="50" y="84" class="mono" font-size="14"><tspan fill="#34d399">➜</tspan><tspan fill="#22d3ee" dx="8">~/career</tspan><tspan fill="#e6edf3" dx="8">git log --graph</tspan></text>
+
+  <!-- graph line -->
+  <line x1="98" y1="118" x2="98" y2="352" stroke="#1f2a40" stroke-width="2"/>
+  <line x1="98" y1="118" x2="98" y2="200" stroke="#34d399" stroke-width="2"/>
+
+  <!-- commit 1 -->
+  <g class="row r1">
+    <circle class="head" cx="98" cy="118" r="7" fill="#34d399"/>
+    <circle cx="98" cy="118" r="7" fill="#34d399"/>
+    <text x="122" y="123" class="mono" font-size="13" fill="#fbbf24">a7f3c21</text>
+    <g transform="translate(192 106)">
+      <rect width="118" height="22" rx="11" fill="#0c1f1a" stroke="#14532d"/>
+      <text x="59" y="15" text-anchor="middle" class="mono" font-size="11" fill="#6ee7b7">HEAD → main</text>
+    </g>
+    <text x="324" y="123" class="sans" font-size="16" font-weight="700" fill="#e6edf3">Senior Backend Developer <tspan fill="#7d8aa3" font-weight="400">@</tspan> <tspan fill="#34d399">Crypthon Technologies</tspan></text>
+    <text x="958" y="123" text-anchor="end" class="mono" font-size="12" fill="#7d8aa3">Feb 2025 — now</text>
+    <text x="122" y="147" class="sans" font-size="13" fill="#9aa7bd">Async FastAPI microservices · GitHub Actions → Kubernetes pipeline · Helm / HPA / RBAC releases</text>
+    <text x="122" y="166" class="sans" font-size="13" fill="#9aa7bd">JMeter load testing · ELK logging · FBR e-invoicing integration · Ollama LLM groundwork</text>
+  </g>
+
+  <!-- commit 2 -->
+  <g class="row r2">
+    <circle cx="98" cy="210" r="6" fill="#0b1120" stroke="#22d3ee" stroke-width="2"/>
+    <text x="122" y="215" class="mono" font-size="13" fill="#fbbf24">4e91b0d</text>
+    <text x="192" y="215" class="sans" font-size="16" font-weight="700" fill="#e6edf3">Associate Python Developer <tspan fill="#7d8aa3" font-weight="400">@</tspan> <tspan fill="#22d3ee">Revocode</tspan></text>
+    <text x="958" y="215" text-anchor="end" class="mono" font-size="12" fill="#7d8aa3">May 2024 — Feb 2025</text>
+    <text x="122" y="238" class="sans" font-size="13" fill="#9aa7bd">REST APIs in FastAPI · Dockerized services on AWS EC2 · GitHub Actions CI/CD · Selenium test automation</text>
+  </g>
+
+  <!-- commit 3 -->
+  <g class="row r3">
+    <circle cx="98" cy="280" r="6" fill="#0b1120" stroke="#22d3ee" stroke-width="2"/>
+    <text x="122" y="285" class="mono" font-size="13" fill="#fbbf24">19c6e5a</text>
+    <text x="192" y="285" class="sans" font-size="16" font-weight="700" fill="#e6edf3">Python Automation Engineer <tspan fill="#7d8aa3" font-weight="400">@</tspan> <tspan fill="#22d3ee">BlitzCoFluence</tspan></text>
+    <text x="958" y="285" text-anchor="end" class="mono" font-size="12" fill="#7d8aa3">Nov 2023 — May 2024</text>
+    <text x="122" y="308" class="sans" font-size="13" fill="#9aa7bd">Selenium automation · Pandas-based web scrapers · external AI API integrations</text>
+  </g>
+
+  <!-- root commit -->
+  <g class="row r4">
+    <circle cx="98" cy="350" r="5" fill="#7d8aa3"/>
+    <text x="122" y="355" class="mono" font-size="13" fill="#fbbf24">0000001</text>
+    <text x="192" y="355" class="mono" font-size="13" fill="#7d8aa3">init:</text>
+    <text x="236" y="355" class="sans" font-size="14" fill="#c9d4e5">BS Computer Science, Chanab College Faisalabad</text>
+  </g>
+</svg>

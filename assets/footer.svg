@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 130" width="1000" height="130" role="img" aria-label="Let's build something that scales.">
+  <style>
+    .mono { font-family: 'JetBrains Mono','Fira Code',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+    .sans { font-family: Inter,'Segoe UI',Helvetica,Arial,sans-serif; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <defs>
+    <linearGradient id="t" x1="0" x2="1">
+      <stop offset="0" stop-color="#e6edf3"/>
+      <stop offset="1" stop-color="#6ee7b7"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="120%" r="70%">
+      <stop offset="0" stop-color="#34d399" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1000" height="130" rx="16" fill="#070a12"/>
+  <rect width="1000" height="130" rx="16" fill="url(#halo)"/>
+  <text x="500" y="46" text-anchor="middle" class="mono" font-size="14"><tspan fill="#34d399">➜</tspan><tspan fill="#22d3ee" dx="8">~/platform</tspan><tspan fill="#e6edf3" dx="8">echo $NEXT_PROJECT</tspan></text>
+  <text x="490" y="92" text-anchor="middle" class="sans" font-size="30" font-weight="800" fill="url(#t)">Let's build something that scales.</text>
+  <rect class="cursor" x="752" y="70" width="12" height="26" fill="#34d399"/>
+</svg>

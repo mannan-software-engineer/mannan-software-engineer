@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" width="1000" height="150" role="img" aria-label="3+ years in production, 30% faster API responses, 10x peak traffic handled, 70% less manual release effort">
+  <style>
+    .mono { font-family: 'JetBrains Mono','Fira Code',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+    .sans { font-family: Inter,'Segoe UI',Helvetica,Arial,sans-serif; }
+    .card { opacity: 0; animation: up .5s ease-out forwards; }
+    .c1 { animation-delay: .1s; } .c2 { animation-delay: .25s; } .c3 { animation-delay: .4s; } .c4 { animation-delay: .55s; }
+    @keyframes up { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+  <defs>
+    <linearGradient id="bar" x1="0" x2="1">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="150" rx="16" fill="#070a12"/>
+
+  <g class="card c1" transform="translate(10 15)">
+    <rect width="230" height="120" rx="12" fill="#0b1120" stroke="#1a2336"/>
+    <rect x="20" y="0" width="60" height="2" rx="1" fill="url(#bar)"/>
+    <text x="20" y="38" class="mono" font-size="12" fill="#7d8aa3">$ uptime --career</text>
+    <text x="20" y="82" class="sans" font-size="38" font-weight="800" fill="#e6edf3">3+<tspan font-size="18" fill="#34d399" dx="6">yrs</tspan></text>
+    <text x="20" y="106" class="sans" font-size="13" fill="#9aa7bd">building production platforms</text>
+  </g>
+
+  <g class="card c2" transform="translate(260 15)">
+    <rect width="230" height="120" rx="12" fill="#0b1120" stroke="#1a2336"/>
+    <rect x="20" y="0" width="60" height="2" rx="1" fill="url(#bar)"/>
+    <text x="20" y="38" class="mono" font-size="12" fill="#7d8aa3">$ api --latency</text>
+    <text x="20" y="82" class="sans" font-size="38" font-weight="800" fill="#e6edf3">30%<tspan font-size="18" fill="#34d399" dx="6">faster</tspan></text>
+    <text x="20" y="106" class="sans" font-size="13" fill="#9aa7bd">average API response time</text>
+  </g>
+
+  <g class="card c3" transform="translate(510 15)">
+    <rect width="230" height="120" rx="12" fill="#0b1120" stroke="#1a2336"/>
+    <rect x="20" y="0" width="60" height="2" rx="1" fill="url(#bar)"/>
+    <text x="20" y="38" class="mono" font-size="12" fill="#7d8aa3">$ jmeter --peak</text>
+    <text x="20" y="82" class="sans" font-size="38" font-weight="800" fill="#e6edf3">10×<tspan font-size="18" fill="#34d399" dx="6">traffic</tspan></text>
+    <text x="20" y="106" class="sans" font-size="13" fill="#9aa7bd">peak load, validated by testing</text>
+  </g>
+
+  <g class="card c4" transform="translate(760 15)">
+    <rect width="230" height="120" rx="12" fill="#0b1120" stroke="#1a2336"/>
+    <rect x="20" y="0" width="60" height="2" rx="1" fill="url(#bar)"/>
+    <text x="20" y="38" class="mono" font-size="12" fill="#7d8aa3">$ helm upgrade --auto</text>
+    <text x="20" y="82" class="sans" font-size="38" font-weight="800" fill="#e6edf3">70%<tspan font-size="18" fill="#34d399" dx="6">less</tspan></text>
+    <text x="20" y="106" class="sans" font-size="13" fill="#9aa7bd">manual release effort</text>
+  </g>
+</svg>

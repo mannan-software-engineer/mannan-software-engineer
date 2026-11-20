@@ -1,269 +1,144 @@
-<!-- ===================================================== -->
-<!--                GITHUB PROFILE README                  -->
-<!--        Replace mannan-software-engineer where needed             -->
-<!-- ===================================================== -->
-
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,50:2563eb,100:06b6d4&text=Abdul%20Mannan&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=Senior%20Software%20Engineer%20|%20DevOps%20|%20Kubernetes&descAlignY=60"/>
+<a href="https://www.abdul-mannan.com/"><img width="100%" src="./assets/header.svg" alt="Abdul Mannan: Senior Backend Developer. I build backend systems that scale without breaking."/></a>
 
-# Hi 👋 I'm Abdul Mannan
+<a href="https://www.abdul-mannan.com/"><img src="https://img.shields.io/badge/Portfolio-abdul--mannan.com-34d399?style=for-the-badge&logo=googlechrome&logoColor=34d399&labelColor=070a12"/></a>
+<a href="https://www.linkedin.com/in/mannan-software-engineer/"><img src="https://img.shields.io/badge/LinkedIn-Connect-22d3ee?style=for-the-badge&logo=linkedin&logoColor=22d3ee&labelColor=070a12"/></a>
+<a href="mailto:mannanforge@gmail.com"><img src="https://img.shields.io/badge/Email-mannanforge-e6edf3?style=for-the-badge&logo=gmail&logoColor=e6edf3&labelColor=070a12"/></a>
+<a href="https://www.abdul-mannan.com/src/pdf/Abdul-Mannan-CV.pdf"><img src="https://img.shields.io/badge/CV-Download-fbbf24?style=for-the-badge&logo=readdotcv&logoColor=fbbf24&labelColor=070a12"/></a>
 
-### Senior Software Engineer • Backend Developer • Cloud & DevOps Enthusiast
-
-<p>
-Building scalable backend systems, cloud-native infrastructure, and production-ready APIs.
-</p>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3500&pause=1000&center=true&vCenter=true&width=850&lines=FastAPI+Developer;Django+Developer;Kubernetes+%26+Docker;REST+API+Architect;Distributed+Systems;PostgreSQL+%7C+Redis+%7C+Celery;Always+Learning+New+Technologies)](https://git.io/typing-svg)
-
-<img src="https://komarev.com/ghpvc/?username=mannan-software-engineer&style=for-the-badge&color=2563eb"/>
+<img width="100%" src="./assets/stats.svg" alt="3+ years in production · 30% faster API responses · 10x peak traffic · 70% less manual release effort"/>
 
 </div>
 
----
+<br/>
 
-# 💻 About Me
+<table>
+<tr>
+<td width="55%" valign="top">
+
+### `$ cat about.md`
+
+I'm a **Senior Backend Developer** based in **Lahore, Pakistan**. I specialise in **FastAPI microservices** and the **Kubernetes clusters** that run them.
+
+I started out in Selenium and Python automation. Today I design async services, ship them through CI/CD into Helm-managed releases, and keep them observable once they're live.
+
+I've built peer-to-peer logistics, digital wallets with audit trails, **FBR e-invoicing** and real-time reservation systems for fintech, e-commerce and food-tech.
+
+</td>
+<td width="45%" valign="top">
+
+### `$ python whoami.py`
 
 ```python
-class AbdulMannan:
+class AbdulMannan(Engineer):
+    role     = "Senior Backend Developer"
+    company  = "Crypthon Technologies"
+    base     = "Lahore, PK · UTC+5"
+    focus    = ["FastAPI", "Kubernetes",
+                "Distributed systems"]
+    building = "GrabnGo"
 
-    name = "Abdul Mannan"
-
-    role = "Senior Software Engineer"
-
-    location = "Pakistan 🇵🇰"
-
-    languages = [
-        "Python",
-        "SQL"
-    ]
-
-    backend = [
-        "FastAPI",
-        "Django",
-        "SQLAlchemy",
-        "Alembic",
-        "REST API",
-        "WebSockets"
-    ]
-
-    databases = [
-        "PostgreSQL",
-        "MySQL",
-        "SQLite",
-        "Redis"
-    ]
-
-    devops = [
-        "Docker",
-        "Kubernetes",
-        "Helm",
-        "NGINX",
-        "HAProxy",
-        "Prometheus",
-        "Grafana",
-        "Longhorn",
-        "MinIO"
-    ]
-
-    messaging = [
-        "RabbitMQ",
-        "Celery",
-        "Celery Beat"
-    ]
-
-    currently_building = "GrabNGo"
-
-    motto = "Build reliable software that scales."
+    def deploy(self, idea):
+        return idea.containerize() \
+                   .helm_upgrade() \
+                   .monitor()
 ```
 
----
+</td>
+</tr>
+</table>
 
-# 🚀 Current Focus
+### `$ ls ~/services`
 
-- ☸️ Kubernetes Infrastructure
-- ⚡ High Performance FastAPI APIs
-- 🐳 Docker & Cloud Native Applications
-- 📈 Monitoring with Prometheus & Grafana
-- 🚀 Production DevOps
+<table>
+<tr>
+<td width="33%" valign="top">
 
----
+**⚡ Backend architecture**
 
-# 🛠 Tech Stack
+Async FastAPI and Django microservices, clean REST and WebSocket APIs, JWT / OAuth2 / RBAC, and Celery pipelines for background work.
+
+</td>
+<td width="33%" valign="top">
+
+**☸️ Platform & DevOps**
+
+Docker, Kubernetes and Helm with HPA and RBAC, plus GitHub Actions CI/CD from commit to cluster on AWS or bare-metal k3s.
+
+</td>
+<td width="33%" valign="top">
+
+**📈 Reliability & scale**
+
+Prometheus, Grafana, Loki and ELK observability, JMeter load testing, and query tuning that keeps p95 latency low.
+
+</td>
+</tr>
+</table>
+
+<img width="100%" src="./assets/experience.svg" alt="Career: Senior Backend Developer at Crypthon Technologies (2025 to present), Associate Python Developer at Revocode, Python Automation Engineer at BlitzCoFluence, BS Computer Science"/>
+
+<img width="100%" src="./assets/projects.svg" alt="Selected work: GrabnGo cross-border marketplace, Laen Daen fintech ledger, Hunger Delights food-tech reservations"/>
 
 <div align="center">
 
-### Languages
-
-<img src="https://skillicons.dev/icons?i=python"/>
-
-### Backend
-
-<img src="https://skillicons.dev/icons?i=fastapi,django"/>
-
-### Database
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis"/>
-
-### DevOps
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx,linux,bash,git,github"/>
-
-### AI / ML
-
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch"/>
+<a href="https://grabngo.com.pk"><img src="https://img.shields.io/badge/GrabnGo-visit_→-34d399?style=flat-square&labelColor=0b1120"/></a>
+<a href="https://laendaen.com"><img src="https://img.shields.io/badge/Laen_Daen-visit_→-22d3ee?style=flat-square&labelColor=0b1120"/></a>
+<a href="https://www.abdul-mannan.com/"><img src="https://img.shields.io/badge/All_work-portfolio_→-e6edf3?style=flat-square&labelColor=0b1120"/></a>
 
 </div>
 
----
-
-# 🚀 Featured Project
+<br/>
 
 <div align="center">
 
-## GrabNGo
+### `$ kubectl describe toolbox`
 
-**Production-Ready Cloud-Native Backend Platform**
+<table>
+<tr>
+<td align="center" width="33%"><sub><b>LANGUAGES & FRAMEWORKS</b></sub><br/><br/><img src="https://skillicons.dev/icons?i=python,fastapi,django,flask&theme=dark" height="42"/></td>
+<td align="center" width="33%"><sub><b>DATA</b></sub><br/><br/><img src="https://skillicons.dev/icons?i=postgres,redis,mysql,mongodb,sqlite&theme=dark" height="42"/></td>
+<td align="center" width="33%"><sub><b>CLOUD & DEVOPS</b></sub><br/><br/><img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,aws,linux&theme=dark" height="42"/></td>
+</tr>
+<tr>
+<td align="center"><sub><b>OBSERVABILITY & TESTING</b></sub><br/><br/><img src="https://skillicons.dev/icons?i=prometheus,grafana,elasticsearch&theme=dark" height="42"/><br/>
+<img src="https://img.shields.io/badge/Loki-0b1120?style=flat-square&logo=grafana&logoColor=34d399"/>
+<img src="https://img.shields.io/badge/Logfire-0b1120?style=flat-square&logo=pydantic&logoColor=34d399"/>
+<img src="https://img.shields.io/badge/JMeter-0b1120?style=flat-square&logo=apachejmeter&logoColor=34d399"/>
+</td>
+<td align="center"><sub><b>ASYNC & REAL-TIME</b></sub><br/><br/>
+<img src="https://img.shields.io/badge/Celery-0b1120?style=flat-square&logo=celery&logoColor=34d399"/>
+<img src="https://img.shields.io/badge/WebSockets-0b1120?style=flat-square&logo=socketdotio&logoColor=34d399"/>
+<img src="https://img.shields.io/badge/Twilio-0b1120?style=flat-square&logo=twilio&logoColor=34d399"/>
+<img src="https://img.shields.io/badge/Firebase_FCM-0b1120?style=flat-square&logo=firebase&logoColor=34d399"/>
+</td>
+<td align="center"><sub><b>DELIVERY & SECURITY</b></sub><br/><br/>
+<img src="https://img.shields.io/badge/Helm-0b1120?style=flat-square&logo=helm&logoColor=22d3ee"/>
+<img src="https://img.shields.io/badge/Pydantic-0b1120?style=flat-square&logo=pydantic&logoColor=22d3ee"/>
+<img src="https://img.shields.io/badge/SQLAlchemy-0b1120?style=flat-square&logo=sqlalchemy&logoColor=22d3ee"/>
+<img src="https://img.shields.io/badge/JWT_·_OAuth2_·_RBAC-0b1120?style=flat-square&logo=jsonwebtokens&logoColor=22d3ee"/>
+</td>
+</tr>
+</table>
 
-*A scalable backend platform built with modern Python technologies and deployed on Kubernetes using production-grade DevOps practices.*
+<br/>
 
-</div>
+### `$ git shortlog --activity`
 
-### ✨ Highlights
+<img src="https://streak-stats.demolab.com?user=mannan-software-engineer&background=070A12&border=1A2336&stroke=1A2336&ring=34D399&fire=22D3EE&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=34D399&sideLabels=7D8AA3&dates=7D8AA3&hide_border=true" alt="GitHub streak"/>
 
-- High-performance REST APIs with FastAPI
-- Asynchronous architecture using SQLAlchemy
-- Background task processing with Celery & RabbitMQ
-- PostgreSQL with Alembic database migrations
-- Object storage powered by MinIO
-- Containerized using Docker
-- Kubernetes (K3s) production deployment
-- Automated deployments with Helm
-- High-availability ingress using HAProxy & NGINX
-- Monitoring with Prometheus & Grafana
-- Persistent storage using Longhorn
-- Multi-environment infrastructure (Development, QA & Production)
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mannan-software-engineer&bg_color=070a12&color=7d8aa3&title_color=e6edf3&line=34d399&point=22d3ee&area=true&area_color=34d399&hide_border=true&radius=12" alt="Contribution graph"/>
 
-### 🏗️ Backend Stack
+<img width="100%" src="https://raw.githubusercontent.com/mannan-software-engineer/mannan-software-engineer/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake"/>
 
-```text
-Python
-FastAPI
-SQLAlchemy (Async)
-Alembic
-PostgreSQL
-Redis
-Celery
-RabbitMQ
-MinIO
-```
+<br/><br/>
 
-### ☁️ DevOps & Infrastructure
+<img width="100%" src="./assets/footer.svg" alt="Let's build something that scales."/>
 
-```text
-Docker
-Kubernetes (K3s)
-Helm
-HAProxy
-NGINX Ingress
-Prometheus
-Grafana
-Longhorn
-GitHub Actions
-Linux
-```
+<a href="https://www.linkedin.com/in/mannan-software-engineer/"><img src="https://img.shields.io/badge/Let's_talk_on_LinkedIn-070a12?style=for-the-badge&logo=linkedin&logoColor=22d3ee"/></a>
+<a href="mailto:mannanforge@gmail.com"><img src="https://img.shields.io/badge/Send_an_email-070a12?style=for-the-badge&logo=gmail&logoColor=34d399"/></a>
 
----
-
-# 🔥 GitHub Streak
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=mannan-software-engineer&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-# 📈 Contribution Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mannan-software-engineer&theme=tokyo-night&hide_border=true"/>
-
-</div>
-
----
-
-# ⚡ Development Activity
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mannan-software-engineer&theme=tokyonight"/>
-
-</div>
-
----
-
-# 📅 Productivity
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mannan-software-engineer&theme=tokyonight"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mannan-software-engineer&theme=tokyonight"/>
-
-</div>
-
----
-
-# 🌐 Connect With Me
-
-<div align="center">
-
-| Platform | Link |
-|----------|------|
-| 💼 LinkedIn | https://www.linkedin.com/in/mannan-software-engineer/ |
-| 🌐 Portfolio | https://www.abdul-mannan.com/ |
-| 📧 Email | mannanforge@gmail.com |
-
-</div>
-
----
-
-# ☕ Fun Facts
-
-```text
-⚡ I enjoy solving backend architecture challenges.
-
-🚀 I love building cloud-native applications.
-
-🐳 Docker + Kubernetes is my happy place.
-
-📚 Always learning new technologies.
-
-💡 Clean architecture > quick hacks.
-```
-
----
-
-<div align="center">
-
-## 🐍 Contributions
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mannan-software-engineer/mannan-software-engineer/output/github-contribution-grid-snake-dark.svg">
-</p>
-
-</div>
-
----
-
-<div align="center">
-
-### ⭐ If you like my projects, don't forget to star them!
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:06b6d4,50:2563eb,100:0f172a"/>
+<img src="https://komarev.com/ghpvc/?username=mannan-software-engineer&style=flat-square&color=34d399&label=profile+views"/>
 
 </div>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 170" width="1000" height="170" role="img" aria-label="3+ years building production platforms; 30% faster average API response time; 10x peak traffic validated by load testing; 70% less manual release effort">
+<style>
+.mono { font-family: 'JetBrains Mono','Fira Code',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+.sans { font-family: Inter,'Segoe UI',Helvetica,Arial,sans-serif; }
+.card { opacity: 0; animation: up .5s ease-out forwards; }
+.c0{animation-delay:.1s}.c1{animation-delay:.25s}.c2{animation-delay:.4s}.c3{animation-delay:.55s}
+@keyframes up { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+.ring { stroke-dasharray: 0 200; animation: ring 1.4s ease-out .7s forwards; }
+@keyframes ring { to { stroke-dasharray: 88 200; } }
+.bar { transform-box: fill-box; transform-origin: left; animation: bar 1s ease-out .6s both; }
+@keyframes bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.line { stroke-dasharray: 200; stroke-dashoffset: 200; animation: draw 1.4s ease-out .8s forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+</style>
+<defs><linearGradient id="acc" x1="0" x2="1"><stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
+
+<g class="card c0" transform="translate(5 10)">
+<rect width="240" height="150" rx="14" fill="#070a12" stroke="#1a2336"/>
+<rect x="18" width="70" height="2" rx="1" fill="url(#acc)"/>
+<text x="18" y="34" class="mono" font-size="11.5" fill="#5d6a82">$ uptime --career</text>
+<text x="18" y="84" class="sans" font-size="40" font-weight="800" letter-spacing="-1" fill="#e6edf3">3+</text>
+<text x="18" y="106" class="mono" font-size="12" fill="#34d399">yrs</text>
+<text x="18" y="126" class="sans" font-size="12.5" fill="#9aa7bd">building production</text>
+<text x="18" y="142" class="sans" font-size="12.5" fill="#9aa7bd">platforms</text>
+<rect x="150" y="82" width="12" height="18" rx="3" fill="url(#acc)"/>
+<rect x="168" y="70" width="12" height="30" rx="3" fill="url(#acc)"/>
+<rect x="186" y="58" width="12" height="42" rx="3" fill="url(#acc)"/>
+<rect x="204" y="46" width="12" height="54" rx="3" fill="url(#acc)"/>
+</g>
+<g class="card c1" transform="translate(255 10)">
+<rect width="240" height="150" rx="14" fill="#070a12" stroke="#1a2336"/>
+<rect x="18" width="70" height="2" rx="1" fill="url(#acc)"/>
+<text x="18" y="34" class="mono" font-size="11.5" fill="#5d6a82">$ api --avg</text>
+<text x="18" y="84" class="sans" font-size="40" font-weight="800" letter-spacing="-1" fill="#e6edf3">30%</text>
+<text x="18" y="106" class="mono" font-size="12" fill="#34d399">faster</text>
+<text x="18" y="126" class="sans" font-size="12.5" fill="#9aa7bd">average API</text>
+<text x="18" y="142" class="sans" font-size="12.5" fill="#9aa7bd">response time</text>
+<text x="140" y="70" class="mono" font-size="9.5" fill="#5d6a82">before</text>
+<rect x="140" y="76" width="82" height="8" rx="4" fill="#1f2a40"/>
+<text x="140" y="102" class="mono" font-size="9.5" fill="#5d6a82">after</text>
+<rect class="bar" x="140" y="108" width="57" height="8" rx="4" fill="url(#acc)"/>
+</g>
+<g class="card c2" transform="translate(505 10)">
+<rect width="240" height="150" rx="14" fill="#070a12" stroke="#1a2336"/>
+<rect x="18" width="70" height="2" rx="1" fill="url(#acc)"/>
+<text x="18" y="34" class="mono" font-size="11.5" fill="#5d6a82">$ jmeter --peak</text>
+<text x="18" y="84" class="sans" font-size="40" font-weight="800" letter-spacing="-1" fill="#e6edf3">10×</text>
+<text x="18" y="106" class="mono" font-size="12" fill="#34d399">traffic</text>
+<text x="18" y="126" class="sans" font-size="12.5" fill="#9aa7bd">peak load, validated</text>
+<text x="18" y="142" class="sans" font-size="12.5" fill="#9aa7bd">by load testing</text>
+<polyline points="150,98 162,95 174,97 186,88 198,78 211,62 224,46" fill="none" stroke="#1f2a40" stroke-width="2"/>
+<polyline class="line" points="150,98 162,95 174,97 186,88 198,78 211,62 224,46" fill="none" stroke="url(#acc)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="224" cy="46" r="4" fill="#34d399"/>
+</g>
+<g class="card c3" transform="translate(755 10)">
+<rect width="240" height="150" rx="14" fill="#070a12" stroke="#1a2336"/>
+<rect x="18" width="70" height="2" rx="1" fill="url(#acc)"/>
+<text x="18" y="34" class="mono" font-size="11.5" fill="#5d6a82">$ helm upgrade</text>
+<text x="18" y="84" class="sans" font-size="40" font-weight="800" letter-spacing="-1" fill="#e6edf3">70%</text>
+<text x="18" y="106" class="mono" font-size="12" fill="#34d399">less</text>
+<text x="18" y="126" class="sans" font-size="12.5" fill="#9aa7bd">manual release</text>
+<text x="18" y="142" class="sans" font-size="12.5" fill="#9aa7bd">effort</text>
+<circle cx="190" cy="90" r="20" fill="none" stroke="#1f2a40" stroke-width="6"/>
+<circle class="ring" cx="190" cy="90" r="20" fill="none" stroke="#34d399" stroke-width="6" stroke-linecap="round" transform="rotate(-90 190 90)"/>
+<text x="190" y="94" text-anchor="middle" class="mono" font-size="10" fill="#9aa7bd">auto</text>
+</g>
+</svg>

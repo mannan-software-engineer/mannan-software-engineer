@@ -2,8 +2,8 @@
 
 <a href="https://www.abdul-mannan.com/"><img width="100%" src="./assets/header.svg" alt="Abdul Mannan: Senior Backend Developer. I build backend systems that scale without breaking."/></a>
 
-<a href="https://www.abdul-mannan.com/"><img src="https://img.shields.io/badge/Portfolio-abdul--mannan.com-34d399?style=for-the-badge&logo=googlechrome&logoColor=34d399&labelColor=070a12"/></a>
-<a href="https://www.linkedin.com/in/mannan-software-engineer/"><img src="https://img.shields.io/badge/LinkedIn-Connect-22d3ee?style=for-the-badge&logo=linkedin&logoColor=22d3ee&labelColor=070a12"/></a>
+<a href="https://www.abdul-mannan.com/"><img src="https://img.shields.io/badge/Portfolio-abdul--mannan.com-1FAB77?style=for-the-badge&logo=googlechrome&logoColor=34d399&labelColor=070a12"/></a>
+<a href="https://www.linkedin.com/in/mannan-software-engineer/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1526"/></a>
 <a href="mailto:mannanforge@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-e6edf3?style=for-the-badge&logo=gmail&logoColor=e6edf3&labelColor=070a12"/></a>
 <a href="https://www.abdul-mannan.com/src/pdf/Abdul-Mannan-CV.pdf"><img src="https://img.shields.io/badge/Résumé-PDF-fbbf24?style=for-the-badge&logo=readdotcv&logoColor=fbbf24&labelColor=070a12"/></a>
 

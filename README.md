@@ -4,10 +4,10 @@
 
 <a href="https://www.abdul-mannan.com/"><img src="https://img.shields.io/badge/Portfolio-abdul--mannan.com-34d399?style=for-the-badge&logo=googlechrome&logoColor=34d399&labelColor=070a12"/></a>
 <a href="https://www.linkedin.com/in/mannan-software-engineer/"><img src="https://img.shields.io/badge/LinkedIn-Connect-22d3ee?style=for-the-badge&logo=linkedin&logoColor=22d3ee&labelColor=070a12"/></a>
-<a href="mailto:mannanforge@gmail.com"><img src="https://img.shields.io/badge/Email-mannanforge-e6edf3?style=for-the-badge&logo=gmail&logoColor=e6edf3&labelColor=070a12"/></a>
-<a href="https://www.abdul-mannan.com/src/pdf/Abdul-Mannan-CV.pdf"><img src="https://img.shields.io/badge/CV-Download-fbbf24?style=for-the-badge&logo=readdotcv&logoColor=fbbf24&labelColor=070a12"/></a>
+<a href="mailto:mannanforge@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-e6edf3?style=for-the-badge&logo=gmail&logoColor=e6edf3&labelColor=070a12"/></a>
+<a href="https://www.abdul-mannan.com/src/pdf/Abdul-Mannan-CV.pdf"><img src="https://img.shields.io/badge/Résumé-PDF-fbbf24?style=for-the-badge&logo=readdotcv&logoColor=fbbf24&labelColor=070a12"/></a>
 
-<img width="100%" src="./assets/stats.svg" alt="3+ years in production · 30% faster API responses · 10x peak traffic · 70% less manual release effort"/>
+<img width="100%" src="./assets/stats.svg" alt="3+ years · 30% faster APIs · 10x peak traffic · 70% less manual release effort"/>
 
 </div>
 
@@ -15,108 +15,73 @@
 
 <table>
 <tr>
-<td width="55%" valign="top">
+<td width="56%" valign="top">
 
-### `$ cat about.md`
+### `~/about`
 
-I'm a **Senior Backend Developer** based in **Lahore, Pakistan**. I specialise in **FastAPI microservices** and the **Kubernetes clusters** that run them.
+I'm a **Senior Backend Developer** at **Crypthon Technologies** in Lahore. I design **async FastAPI microservices** and run the **Kubernetes clusters** they live on.
 
-I started out in Selenium and Python automation. Today I design async services, ship them through CI/CD into Helm-managed releases, and keep them observable once they're live.
+I started out writing Selenium and Python automation. These days I take a service from schema to Helm chart to Grafana dashboard, then carry the pager for it.
 
-I've built peer-to-peer logistics, digital wallets with audit trails, **FBR e-invoicing** and real-time reservation systems for fintech, e-commerce and food-tech.
+Along the way I've shipped peer-to-peer logistics, **digital wallets with audit trails**, **FBR e-invoicing** and real-time reservation systems for fintech, e-commerce and food-tech.
 
 </td>
-<td width="45%" valign="top">
+<td width="44%" valign="top">
 
-### `$ python whoami.py`
+### `~/whoami.py`
 
 ```python
 class AbdulMannan(Engineer):
-    role     = "Senior Backend Developer"
-    company  = "Crypthon Technologies"
-    base     = "Lahore, PK · UTC+5"
-    focus    = ["FastAPI", "Kubernetes",
-                "Distributed systems"]
-    building = "GrabnGo"
+    role  = "Senior Backend Developer"
+    stack = ["FastAPI", "PostgreSQL",
+             "Celery", "Kubernetes"]
+    base  = "Lahore, PK · UTC+5"
 
-    def deploy(self, idea):
-        return idea.containerize() \
-                   .helm_upgrade() \
-                   .monitor()
+    def ship(self, feature):
+        return (feature
+            .containerize()
+            .helm_upgrade("prod")
+            .observe())
 ```
 
 </td>
 </tr>
 </table>
 
-### `$ ls ~/services`
+<img width="100%" src="./assets/architecture.svg" alt="Production architecture: clients through HAProxy and NGINX ingress into a k3s cluster running FastAPI, a WebSocket gateway and Celery, backed by PostgreSQL, Redis, RabbitMQ and MinIO, with GitHub Actions + Helm delivery and Prometheus, Grafana, Loki and Alertmanager observability"/>
 
-<table>
-<tr>
-<td width="33%" valign="top">
+<img width="100%" src="./assets/timeline.svg" alt="Career: BS Computer Science → Python Automation Engineer at BlitzCoFluence → Associate Python Developer at Revocode → Senior Backend Developer at Crypthon Technologies"/>
 
-**⚡ Backend architecture**
-
-Async FastAPI and Django microservices, clean REST and WebSocket APIs, JWT / OAuth2 / RBAC, and Celery pipelines for background work.
-
-</td>
-<td width="33%" valign="top">
-
-**☸️ Platform & DevOps**
-
-Docker, Kubernetes and Helm with HPA and RBAC, plus GitHub Actions CI/CD from commit to cluster on AWS or bare-metal k3s.
-
-</td>
-<td width="33%" valign="top">
-
-**📈 Reliability & scale**
-
-Prometheus, Grafana, Loki and ELK observability, JMeter load testing, and query tuning that keeps p95 latency low.
-
-</td>
-</tr>
-</table>
-
-<img width="100%" src="./assets/experience.svg" alt="Career: Senior Backend Developer at Crypthon Technologies (2025 to present), Associate Python Developer at Revocode, Python Automation Engineer at BlitzCoFluence, BS Computer Science"/>
-
-<img width="100%" src="./assets/projects.svg" alt="Selected work: GrabnGo cross-border marketplace, Laen Daen fintech ledger, Hunger Delights food-tech reservations"/>
+<img width="100%" src="./assets/projects.svg" alt="Selected work: GrabnGo, Laen Daen and Hunger Delights"/>
 
 <div align="center">
 
-<a href="https://grabngo.com.pk"><img src="https://img.shields.io/badge/GrabnGo-visit_→-34d399?style=flat-square&labelColor=0b1120"/></a>
-<a href="https://laendaen.com"><img src="https://img.shields.io/badge/Laen_Daen-visit_→-22d3ee?style=flat-square&labelColor=0b1120"/></a>
-<a href="https://www.abdul-mannan.com/"><img src="https://img.shields.io/badge/All_work-portfolio_→-e6edf3?style=flat-square&labelColor=0b1120"/></a>
+<a href="https://grabngo.com.pk"><img src="https://img.shields.io/badge/GrabnGo-visit_↗-34d399?style=flat-square&labelColor=0b1120"/></a>
+<a href="https://laendaen.com"><img src="https://img.shields.io/badge/Laen_Daen-visit_↗-22d3ee?style=flat-square&labelColor=0b1120"/></a>
+<a href="https://www.abdul-mannan.com/"><img src="https://img.shields.io/badge/Case_studies-portfolio_↗-e6edf3?style=flat-square&labelColor=0b1120"/></a>
 
-</div>
+<br/><br/>
 
-<br/>
-
-<div align="center">
-
-### `$ kubectl describe toolbox`
+### `~/toolbox`
 
 <table>
 <tr>
-<td align="center" width="33%"><sub><b>LANGUAGES & FRAMEWORKS</b></sub><br/><br/><img src="https://skillicons.dev/icons?i=python,fastapi,django,flask&theme=dark" height="42"/></td>
-<td align="center" width="33%"><sub><b>DATA</b></sub><br/><br/><img src="https://skillicons.dev/icons?i=postgres,redis,mysql,mongodb,sqlite&theme=dark" height="42"/></td>
-<td align="center" width="33%"><sub><b>CLOUD & DEVOPS</b></sub><br/><br/><img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,aws,linux&theme=dark" height="42"/></td>
+<td align="center" width="33%"><sub><b>BACKEND</b></sub><br/><br/><img src="https://skillicons.dev/icons?i=python,fastapi,django,flask&theme=dark" height="40"/></td>
+<td align="center" width="33%"><sub><b>DATA</b></sub><br/><br/><img src="https://skillicons.dev/icons?i=postgres,redis,mysql,mongodb&theme=dark" height="40"/></td>
+<td align="center" width="33%"><sub><b>CLOUD & DEVOPS</b></sub><br/><br/><img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,aws&theme=dark" height="40"/></td>
 </tr>
 <tr>
-<td align="center"><sub><b>OBSERVABILITY & TESTING</b></sub><br/><br/><img src="https://skillicons.dev/icons?i=prometheus,grafana,elasticsearch&theme=dark" height="42"/><br/>
-<img src="https://img.shields.io/badge/Loki-0b1120?style=flat-square&logo=grafana&logoColor=34d399"/>
-<img src="https://img.shields.io/badge/Logfire-0b1120?style=flat-square&logo=pydantic&logoColor=34d399"/>
-<img src="https://img.shields.io/badge/JMeter-0b1120?style=flat-square&logo=apachejmeter&logoColor=34d399"/>
-</td>
+<td align="center"><sub><b>OBSERVABILITY</b></sub><br/><br/><img src="https://skillicons.dev/icons?i=prometheus,grafana,elasticsearch,linux&theme=dark" height="40"/></td>
 <td align="center"><sub><b>ASYNC & REAL-TIME</b></sub><br/><br/>
 <img src="https://img.shields.io/badge/Celery-0b1120?style=flat-square&logo=celery&logoColor=34d399"/>
+<img src="https://img.shields.io/badge/RabbitMQ-0b1120?style=flat-square&logo=rabbitmq&logoColor=34d399"/>
 <img src="https://img.shields.io/badge/WebSockets-0b1120?style=flat-square&logo=socketdotio&logoColor=34d399"/>
-<img src="https://img.shields.io/badge/Twilio-0b1120?style=flat-square&logo=twilio&logoColor=34d399"/>
 <img src="https://img.shields.io/badge/Firebase_FCM-0b1120?style=flat-square&logo=firebase&logoColor=34d399"/>
 </td>
-<td align="center"><sub><b>DELIVERY & SECURITY</b></sub><br/><br/>
+<td align="center"><sub><b>PLATFORM & SECURITY</b></sub><br/><br/>
 <img src="https://img.shields.io/badge/Helm-0b1120?style=flat-square&logo=helm&logoColor=22d3ee"/>
-<img src="https://img.shields.io/badge/Pydantic-0b1120?style=flat-square&logo=pydantic&logoColor=22d3ee"/>
 <img src="https://img.shields.io/badge/SQLAlchemy-0b1120?style=flat-square&logo=sqlalchemy&logoColor=22d3ee"/>
+<img src="https://img.shields.io/badge/MinIO-0b1120?style=flat-square&logo=minio&logoColor=22d3ee"/>
 <img src="https://img.shields.io/badge/JWT_·_OAuth2_·_RBAC-0b1120?style=flat-square&logo=jsonwebtokens&logoColor=22d3ee"/>
 </td>
 </tr>
@@ -124,21 +89,13 @@ Prometheus, Grafana, Loki and ELK observability, JMeter load testing, and query 
 
 <br/>
 
-### `$ git shortlog --activity`
-
-<img src="https://streak-stats.demolab.com?user=mannan-software-engineer&background=070A12&border=1A2336&stroke=1A2336&ring=34D399&fire=22D3EE&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=34D399&sideLabels=7D8AA3&dates=7D8AA3&hide_border=true" alt="GitHub streak"/>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mannan-software-engineer&bg_color=070a12&color=7d8aa3&title_color=e6edf3&line=34d399&point=22d3ee&area=true&area_color=34d399&hide_border=true&radius=12" alt="Contribution graph"/>
-
 <img width="100%" src="https://raw.githubusercontent.com/mannan-software-engineer/mannan-software-engineer/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake"/>
 
 <br/><br/>
 
-<img width="100%" src="./assets/footer.svg" alt="Let's build something that scales."/>
+<img width="100%" src="./assets/footer.svg" alt="Got a system that needs to scale? Let's talk."/>
 
 <a href="https://www.linkedin.com/in/mannan-software-engineer/"><img src="https://img.shields.io/badge/Let's_talk_on_LinkedIn-070a12?style=for-the-badge&logo=linkedin&logoColor=22d3ee"/></a>
 <a href="mailto:mannanforge@gmail.com"><img src="https://img.shields.io/badge/Send_an_email-070a12?style=for-the-badge&logo=gmail&logoColor=34d399"/></a>
-
-<img src="https://komarev.com/ghpvc/?username=mannan-software-engineer&style=flat-square&color=34d399&label=profile+views"/>
 
 </div>
